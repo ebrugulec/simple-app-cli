@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add git-clone
+
+PATH: 
+  /opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EPERM: operation not permitted, open '/Users/ebrugulec/Desktop/package.json'
+
+npm manifest: 
+  {
+    "name": "cheat-cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bin": "./bin.js",
+    "dependencies": {
+      "yargs": "^17.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
